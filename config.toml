@@ -23,23 +23,23 @@ defaultContentLanguage = 'en'
     [languages.cy.menu]
       [[languages.cy.menu.main]]
         name = 'Am'
-        pageRef = '/cy/about/'
+        pageRef = 'cy/about/'
         weight = 20
       [[languages.cy.menu.main]]
         name = 'Partneriaid'
-        pageRef = '/cy/partners'
+        pageRef = 'cy/partners'
         weight = 30
       [[languages.cy.menu.main]]
         name = 'Cymrodoriaethau a Hyfforddiant'
-        pageRef = '/cy/training'
+        pageRef = 'cy/training'
         weight = 40
       [[languages.cy.menu.main]]
         name = 'Gwasanaethau'
-        pageRef = '/cy/services'
+        pageRef = 'cy/services'
         weight = 50
       [[languages.cy.menu.main]]
         name = 'Cysylltwch'
-        pageRef = '/cy/contact'
+        pageRef = 'cy/contact'
         weight = 60
 
 
@@ -48,49 +48,49 @@ defaultContentLanguage = 'en'
 [menu]
 [[menu.main]]
   name = 'About'
-  pageRef = '/about'
+  pageRef = 'about'
   weight = 20
 [[menu.main]]
   name = 'Partners'
-  pageRef = '/partners'
+  pageRef = 'partners'
   weight = 30
 [[menu.main]]
   name = 'Fellowships & Training'
-  pageRef = '/training'
+  pageRef = 'training'
   weight = 40
 [[menu.main]]
   name = 'Services'
-  pageRef = '/services'
+  pageRef = 'services'
   weight = 50
 [[menu.main]]
   name = 'Contact'
-  pageRef = '/contact'
+  pageRef = 'contact'
   weight = 60
 
 # Footer page menu
 [[menu.footer]]
   name = 'About'
-  pageRef = '/about'
+  pageRef = 'about'
   weight = 20
 [[menu.footer]]
   name = 'Partners'
-  pageRef = '/partners'
+  pageRef = 'partners'
   weight = 30
 [[menu.footer]]
   name = 'Fellowships & Training'
-  pageRef = '/training'
+  pageRef = 'training'
   weight = 40
     [[languages.cy.menu.footer]]
       name = 'Am'
-      pageRef = '/cy/about/'
+      pageRef = 'cy/about/'
       weight = 20
     [[languages.cy.menu.footer]]
       name = 'Partneriaid'
-      pageRef = '/cy/partners'
+      pageRef = 'cy/partners'
       weight = 30
     [[languages.cy.menu.footer]]
       name = 'Cymrodoriaethau a Hyfforddiant'
-      pageRef = '/cy/training'
+      pageRef = 'cy/training'
       weight = 40
 
 # Services lists
