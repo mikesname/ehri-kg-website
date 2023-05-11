@@ -1,0 +1,3 @@
+[submodule "themes/ehri-nn"]
+	path = themes/ehri-nn
+	url = git@github.com:EHRI/ehri-nn-hugo-theme.git

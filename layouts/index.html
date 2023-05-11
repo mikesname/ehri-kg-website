@@ -1,0 +1,170 @@
+{{ define "main" }}
+
+<body>
+    <section class="home hero">
+        <div class="welcome">
+            <h1>{{ .Page.Title }}</h1>
+
+            <div class="image1"></div>
+            <div class="image2"></div>
+            <div class="image3"></div>
+            <p>
+                {{ .Content }}
+            </p>
+
+            <a class="button-primary" href="about">Learn more</a>
+        </div>
+    </section>
+
+    <section class="home video paper">
+
+        <h1><a target="_blank" href="https://www.youtube.com/embed/HR_R0SSMWz0">More about EHRI's mission and vision</a></h1>
+
+        <img class="video-placeholder" alt="video" src="/images/video-placeholder.png"/>
+
+<!--        <iframe-->
+<!--            class="video-embed"-->
+<!--            src="https://www.youtube.com/embed/HR_R0SSMWz0" title="YouTube video player"-->
+<!--            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
+<!--            allowfullscreen="">-->
+<!--        </iframe>-->
+
+    </section>
+
+    <section class="home services">
+        <h2>EHRI services</h2>
+        <p>
+            Below are some of the innovative services created by EHRI for use by all.
+        </p>
+
+        <div class="resource-cards">
+            <div class="resource-card">
+                <div class="resource-img">
+                    <img src="/images/cards-still-1.png" alt="Portal"/>
+                </div>
+                <div class="resource-info">
+                    <header>
+                        <a href="https://portal.ehri-project.eu">
+                            EHRI Portal
+                        </a>
+                    </header>
+                    <a class="resource-icon " href="https://portal.ehri-project.eu"><span class="material-symbols-outlined">meeting_room</span></a>
+                    <p>The EHRI portal offers access to information on Holocaust-related archival material held in institutions across Europe and beyond.</p>
+                    <a class="button-primary" href="https://portal.ehri-project.eu">Go to the EHRI Portal</a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-img">
+                    <img src="/images/names-2.png" alt="Blog"/>
+                </div>
+                <div class="resource-info">
+                    <header><a href="https://blog.ehri-project.eu">Document Blog</a></header>
+                    <a class="resource-icon " href="https://blog.ehri-project.eu"><span class="material-symbols-outlined">article</span></a>
+                    <p>The EHRI document blog is a space to share ideas about Holocaust-related archival documents, and their presentation and interpretation using digital tools.</p>
+                    <a class="button-primary" href="https://blog.ehri-project.eu">Go to the Document Blog</a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-img">
+                    <img src="/images/doklady-1.png" alt="Diplomatic Reports"/>
+                </div>
+                <div class="resource-info">
+                    <header><a href="https://diplomatic-reports.ehri-project.eu">Diplomatic Reports</a></header>
+                    <a class="resource-icon " href="https://diplomatic-reports.ehri-project.eu"><span class="material-symbols-outlined">lab_profile</span></a>
+                    <p>The online edition &quot;Diplomatic Reports&quot; focuses on how diplomatic staff reported the persecution and murder of European Jews during World War II.</p>
+                    <a class="button-primary" href="https://diplomatic-reports.ehri-project.eu">Go to Diplomatic Reports</a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-img">
+                    <img src="/images/cards-still-1.png" alt="Portal"/>
+                </div>
+                <div class="resource-info">
+                    <header><a href="https://early-testimony.ehri-project.eu">Early Holocaust Testimony</a></header>
+                    <a class="resource-icon " href="https://early-testimony.ehri-project.eu"><span class="material-symbols-outlined">patient_list</span></a>
+                    <p>The EHRI portal offers access to information on Holocaust-related archival material held in institutions across Europe and beyond.</p>
+                    <a class="button-primary" href="https://portal.ehri-project.eu">Go to the EHRI Portal</a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-img">
+                    <img src="/images/cards-still-1.png" alt="Portal"/>
+                </div>
+                <div class="resource-info">
+                    <header><a href="https://portal.ehri-project.eu">Digital Tools Guide</a></header>
+                    <a class="resource-icon " href="https://portal.ehri-project.eu"><span class="material-symbols-outlined">handyman</span></a>
+                    <p>The EHRI portal offers access to information on Holocaust-related archival material held in institutions across Europe and beyond.</p>
+                    <a class="button-primary" href="https://portal.ehri-project.eu">Go to the EHRI Portal</a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-img">
+                    <img src="/images/cards-still-1.png" alt="Portal"/>
+                </div>
+                <div class="resource-info">
+                    <header><a href="https://portal.ehri-project.eu">Podcast</a></header>
+                    <a class="resource-icon " href="https://portal.ehri-project.eu"><span class="material-symbols-outlined">podcasts</span></a>
+                    <p>The EHRI portal offers access to information on Holocaust-related archival material held in institutions across Europe and beyond.</p>
+                    <a class="button-primary" href="https://portal.ehri-project.eu">Go to the EHRI Portal</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="home latest">
+        <h2>Latest</h2>
+        <ul class="latest-cards">
+            <li>
+                <div class="latest-card">
+                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
+                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
+                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
+                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <div class="latest-card">
+                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
+                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
+                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
+                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <div class="latest-card">
+                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
+                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
+                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
+                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <div class="latest-card">
+                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
+                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
+                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
+                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <div class="latest-card">
+                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
+                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
+                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
+                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <div class="latest-card">
+                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
+                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
+                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
+                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>
+
+{{ end }}
