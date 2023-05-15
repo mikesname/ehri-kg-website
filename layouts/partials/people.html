@@ -1,0 +1,27 @@
+<section class="people paper page-content">
+    <div class="person-list">
+        {{ range site.Data.people }}
+            <div class="person">
+                {{ $img := printf "%s_headshot.webp" .id }}
+                {{ $url := printf "images/%s" $img }}
+                {{ $imgpath := printf "static/%s" $url }}
+                {{ if fileExists $imgpath }}
+                    <img class="person-image" src="{{ $url | relURL }}" alt="{{ .name }} image" />
+                {{ end }}
+                <h2 class="person-name">{{ .name }}</h2>
+                <p class="person-about">
+                    {{ .about | markdownify }}
+                </p>
+                {{ if .email }}
+                <div class="contact-card">
+                    <header class="contact-name"><a href="mailto:{{ .email }}">{{ .name }}</a></header>
+                    <a class="contact-email" href="mailto:{{ .email }}">
+                        <i class="fa fa-fw fa-envelope-o"></i>
+                        {{ .email }}
+                    </a>
+                </div>
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+</section>

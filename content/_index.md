@@ -1,7 +1,6 @@
 ---
-title: "Creating a UK National Holocaust Research Infrastructure"
-description: "Welcome to the UK Holocaust Research Infrastructure"
-url: /
+title: Creating a UK National Holocaust Research Infrastructure
+description: Welcome to the UK Holocaust Research Infrastructure
 ---
 
 The UK holds a unique collection of records relating to the Holocaust and refugees who
