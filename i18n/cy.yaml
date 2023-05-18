@@ -1,0 +1,48 @@
+
+about:
+  other: Am
+
+contact:
+  other: Cysylltwch
+
+services:
+  other: Gwasanaethau
+
+partners_funders:
+  other: Partneriaid/Cyllidwyr
+
+partners:
+  other: Partneriaid
+
+fellowships_training:
+  other: Cymrodoriaethau a Hyfforddiant
+
+document_blog:
+  other: Blog Dogfen
+
+portal:
+  other: Porth EHRI
+
+digital_tools_guide:
+  other: Canllaw Offer Digidol
+
+podcast:
+  other: Podlediad
+
+learn_more:
+  other: Dysgu mwy
+
+latest:
+  other: Diweddaraf
+
+ehri_services:
+  other: Gwasanaethau EHRI
+
+below_are_some:
+  other: Isod mae rhai o'r gwasanaethau arloesol a grëwyd gan EHRI i'w defnyddio gan bawb.
+
+more_about_mission:
+  other: Mwy am genhadaeth a gweledigaeth EHRI
+
+go_to:
+  other:  Ewch i'r {{ .Name }}

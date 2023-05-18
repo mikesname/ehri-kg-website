@@ -1,0 +1,102 @@
+baseURL: 'http://example.org/'
+languageCode: en-gb
+title: United Kingdom
+theme: ehri-nn
+copyright: '© 2010-{year} EHRI Consortium.'
+defaultContentLanguage: en
+params:
+  titleShort: EHRI-UK
+  facebook_url: 'https://facebook.com/EHRIproject'
+  twitter_url: 'https://twitter.com/EHRIproject'
+  contact_name: EHRI UK
+  contact_email: feedback@ehri-uk.org
+
+# Menu configuration. Labels are in the i18n folders:
+menu:
+  main:
+    - identifier: about
+      pageRef: about
+      weight: 20
+    - identifier: partners
+      pageRef: partners
+      weight: 30
+    - identifier: fellowships_training
+      pageRef: training
+      weight: 40
+    - identifier: services
+      pageRef: services
+      weight: 50
+    - identifier: contact
+      pageRef: contact
+      weight: 60
+  footer:
+    - identifier: about
+      pageRef: about
+      weight: 20
+    - identifier: partners
+      pageRef: partners
+      weight: 30
+    - identifier: fellowships_training
+      pageRef: training
+      weight: 40
+  services:
+    - identifier: portal
+      pageRef: 'https://portal.ehri-project.eu/'
+      weight: 10
+    - identifier: document_blog
+      pageRef: 'https://blog.ehri-project.eu/'
+      weight: 20
+    - identifier: digital_tools_guide
+      pageRef: 'https://github.com/EHRI/ehri-data-analysis-tools'
+      weight: 30
+    - identifier: podcast
+      pageRef: 'https://www.ehri-project.eu/ehri-podcast-for-the-living-and-the-dead'
+      weight: 40
+
+
+# Language overrides for menu config. TODO: figure out
+# how not to duplicate things in e.g. the services menu
+languages:
+  en:
+    title: United Kingdom
+    weight: 1
+  cy:
+    title: Deyrnas Unedig
+    weight: 2
+    menu:
+      main:
+        - identifier: about
+          pageRef: cy/about/
+          weight: 20
+        - identifier: partners
+          pageRef: cy/partners
+          weight: 30
+        - identifier: fellowships_training
+          pageRef: cy/training
+          weight: 40
+        - identifier: services
+          pageRef: cy/services
+          weight: 50
+        - identifier: contact
+          pageRef: cy/contact
+          weight: 60
+      footer:
+        - identifier: about
+          pageRef: cy/about/
+          weight: 20
+        - identifier: partners
+          pageRef: cy/partners
+          weight: 30
+        - identifier: fellowships_training
+          pageRef: cy/training
+          weight: 40
+      services:
+        - identifier: document_blog
+          pageRef: 'https://blog.ehri-project.eu/'
+          weight: 20
+        - identifier: digital_tools_guide
+          pageRef: 'https://github.com/EHRI/ehri-data-analysis-tools'
+          weight: 30
+        - identifier: podcast
+          pageRef: 'https://www.ehri-project.eu/ehri-podcast-for-the-living-and-the-dead'
+          weight: 40

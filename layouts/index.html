@@ -12,13 +12,13 @@
                 {{ .Content }}
             </p>
 
-            <a class="button-primary" href="about">Learn more</a>
+            <a class="button-primary" href="about">{{ i18n "learn_more" }}</a>
         </div>
     </section>
 
     <section class="home video paper">
 
-        <h1><a target="_blank" href="https://www.youtube.com/embed/HR_R0SSMWz0">More about EHRI's mission and vision</a></h1>
+        <h1><a target="_blank" href="https://www.youtube.com/embed/HR_R0SSMWz0">{{ i18n "more_about_mission" }}</a></h1>
 
         <img class="video-placeholder" alt="video" src="{{ "images/video-placeholder.png" | relURL }}"/>
 
@@ -32,66 +32,18 @@
     </section>
 
     <section class="home services">
-        <h2>EHRI services</h2>
+        <h2>{{ i18n "ehri_services" }}</h2>
         <p>
-            Below are some of the innovative services created by EHRI for use by all.
+            {{ i18n "below_are_some" }}
         </p>
 
         {{ partial "services" . }}
     </section>
 
     <section class="home latest">
-        <h2>Latest</h2>
-        <ul class="latest-cards">
-            <li>
-                <div class="latest-card">
-                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
-                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
-                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
-                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <div class="latest-card">
-                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
-                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
-                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
-                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <div class="latest-card">
-                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
-                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
-                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
-                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <div class="latest-card">
-                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
-                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
-                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
-                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <div class="latest-card">
-                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
-                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
-                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
-                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <div class="latest-card">
-                    <header><a href="https://www.ehri-project.eu">State-of-the-art digital infrastructure</a></header>
-                    <p>Representing institutions within the UK (and Crown Dependencies) which contain materials
-                        related to Holocaust Studies to create a strong research consortium. Offering fellowships and training opportunities for... </p>
-                    <a class="button-primary" href="https://www.ehri-project.eu">Learn more</a>
-                </div>
-            </li>
-        </ul>
+        <h2>{{ i18n "latest" }}</h2>
+
+        {{ partial "latest" . }}
     </section>
 </body>
 

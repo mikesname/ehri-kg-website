@@ -27,4 +27,6 @@
         {{ end }}
     </div>
 </section>
+{{ else }}
+    {{ errorf "Cannot find people data for language '%s'" .Language }}
 {{ end }}

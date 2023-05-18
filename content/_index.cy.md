@@ -1,7 +1,6 @@
 ---
 title: Creu Seilwaith Ymchwil Holocost Cenedlaethol y DU
 description: Croeso i Seilwaith Ymchwil Holocost y DU
-url: /cy/
 ---
 
 Mae gan y DU gasgliad unigryw o gofnodion yn ymwneud â'r Holocost a ffoaduriaid sy'n

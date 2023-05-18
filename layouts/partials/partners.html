@@ -6,4 +6,6 @@
         {{ partial "partner-card" . }}
     {{ end }}
 </div>
+{{ else }}
+    {{ errorf "Cannot find partners data for language '%s'" .Language }}
 {{ end }}
