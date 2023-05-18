@@ -3,6 +3,7 @@
 - id: pistol
   name: Welsh Dr. Rachel Pistol
   email: feedback@ehri-uk.org
+  image: pistol.webp
   about: >
    Some Welsh Text
   contact: true
@@ -10,6 +11,7 @@
 - id: schmidt
   name: Dr. Christine Schmidt
   email: feedback@ehri-uk.org
+  image: schmidt.webp
   about: |
     More Welsh text
   contact: true

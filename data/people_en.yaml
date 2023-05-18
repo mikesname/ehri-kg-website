@@ -3,6 +3,7 @@
 - id: pistol
   name: Dr. Rachel Pistol
   email: feedback@ehri-uk.org
+  image: pistol.webp
   about: >
     Rachel Pistol is a digital historian based at
     [King's College London](https://www.kcl.ac.uk/people/dr-rachel-pistol)
@@ -16,6 +17,7 @@
 - id: schmidt
   name: Dr. Christine Schmidt
   email: feedback@ehri-uk.org
+  image: schmidt.webp
   about: |
     Christine Schmidt is a historian of the Holocaust, with a passion for and
     commitment to public history, archives, and cultural heritage. She is Deputy

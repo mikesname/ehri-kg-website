@@ -5,8 +5,7 @@
     <div class="person-list">
         {{ range $data }}
             <div class="person">
-                {{ $img := printf "%s_headshot.webp" .id }}
-                {{ $url := printf "images/%s" $img }}
+                {{ $url := printf "images/%s" .image }}
                 {{ $imgpath := printf "static/%s" $url }}
                 {{ if fileExists $imgpath }}
                     <img class="person-image" src="{{ $url | relURL }}" alt="{{ .name }} image" />

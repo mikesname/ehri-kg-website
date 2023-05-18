@@ -1,0 +1,16 @@
+<div class="partner-card">
+    {{ $url := printf "images/%s" .image }}
+    {{ $imgpath := printf "static/%s" $url }}
+    {{ if fileExists $imgpath }}
+        <img class="logo" src="{{ $url | relURL }}" alt="{{ .name }} image" />
+    {{ else }}
+        {{ $url := "images/cards-still-1.png" }}
+        <img class="logo" src="{{ $url | relURL }}" alt="{{ .name }} image" />
+    {{ end }}
+    <header>
+        <h3><a href="{{ .url }}">{{ .name }}</a></h3></header>
+    <div class="info">
+        {{ .about | markdownify }}
+        <a class="button-primary" target="_blank" href="{{ .url }}">Go to {{ .name }}</a>
+    </div>
+</div>

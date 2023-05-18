@@ -1,0 +1,9 @@
+{{ $key := printf "services_%s" .Language }}
+{{ $data := index site.Data $key }}
+{{ if $data }}
+<div class="resource-cards">
+    {{ range $data }}
+        {{ partial "resource-card" . }}
+    {{ end }}
+</div>
+{{ end }}

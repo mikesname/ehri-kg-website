@@ -36,8 +36,7 @@
                         {{ range $data }}
                             {{ if (and .contact .email)  }}
                                 <div class="contact-card">
-                                    {{ $img := printf "%s_headshot.webp" .id }}
-                                    {{ $url := printf "images/%s" $img }}
+                                    {{ $url := printf "images/%s" .image }}
                                     {{ $imgpath := printf "static/%s" $url }}
                                     {{ if fileExists $imgpath }}
                                         <img class="contact-image" src="{{ $url | relURL }}" alt="{{ .name }} image" />
