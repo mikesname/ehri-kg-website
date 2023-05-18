@@ -46,3 +46,34 @@ more_about_mission:
 
 go_to:
   other:  Ewch i'r {{ .Name }}
+
+# Contact page
+contact_send_message:
+  other: Anfonwch neges i ni
+
+contact_form_name:
+  other: Enw
+
+contact_form_email:
+  other: Ebost
+
+contact_form_subject:
+  other: Pwnc
+
+contact_form_message:
+  other: Gadewch neges i ni...
+
+contact_form_send:
+  other: Anfon Neges
+
+contact_coordinators:
+  other: Cydlynwyr ar {{ .Title }}
+
+contact_social: # NB: need to quote this value due to the `{{`
+  other: "{{ .Title }} ar gyfryngau cymdeithasol"
+
+contact_thanks:
+  other: Diolch am eich neges
+
+contact_back:
+  other: Ewch yn ôl i'r ffurflen
