@@ -1,13 +1,15 @@
 ---
 
 - id: pistol
-  name: Dr. Rachel Pistol
+  name: Welsh Dr. Rachel Pistol
   email: feedback@ehri-uk.org
   about: >
    Some Welsh Text
+  contact: true
 
 - id: schmidt
   name: Dr. Christine Schmidt
   email: feedback@ehri-uk.org
   about: |
     More Welsh text
+  contact: true

@@ -1,0 +1,70 @@
+{{ define "main" }}
+    <section class="page-content {{ path.BaseName . }}">
+
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        <div class="contact-info">
+            <div class="form">
+                <h2>Send us a message</h2>
+                <form class="form contact-form" method="post" action="{{ .Params.action }}">
+                    <div class="form-group">
+                        <label for="form-name">Name *</label>
+                        <input type="text" name="name" id="form-name" placeholder="Name" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-email">Email *</label>
+                        <input type="email" name="email" id="form-email" placeholder="Email" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-subject">Subject *</label>
+                        <input type="text" name="subject" id="form-subject" placeholder="Subject" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-message">Leave us a message... *</label>
+                        <textarea rows="8" name="message" id="form-message" placeholder="Message" required></textarea>
+                    </div>
+                    <button class="button-primary" type="submit">Send message</button>
+                </form>
+            </div>
+            <div class="contacts">
+                {{ $key := printf "people_%s" .Language }}
+                {{ $data := index site.Data $key }}
+                {{ if $data }}
+                    <h2>Coordinators for EHRI-UK</h2>
+                    <div class="contact-list">
+                        {{ range $data }}
+                            {{ if (and .contact .email)  }}
+                                <div class="contact-card">
+                                    {{ $img := printf "%s_headshot.webp" .id }}
+                                    {{ $url := printf "images/%s" $img }}
+                                    {{ $imgpath := printf "static/%s" $url }}
+                                    {{ if fileExists $imgpath }}
+                                        <img class="contact-image" src="{{ $url | relURL }}" alt="{{ .name }} image" />
+                                    {{ end }}
+                                    <header class="contact-name"><a href="mailto:{{ .email }}">{{ .name }}</a></header>
+                                    <a class="contact-email" href="mailto:{{ .email }}">
+                                        <i class="fa fa-fw fa-envelope-o"></i>
+                                        {{ .email }}
+                                    </a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                {{ end }}
+
+                <h4>EHRI on social media</h4>
+                <div class="social">
+                    <a class="follow-button" href="https://facebook.com/EHRIproject" title="Follow EHRI on Facebook">
+                        <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a class="follow-button" href="https://twitter.com/EHRIproject" title="Follow EHRI on Twitter">
+                        <i class="fa fa-fw fa-2x fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
