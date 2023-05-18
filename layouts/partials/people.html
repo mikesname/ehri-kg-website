@@ -1,6 +1,9 @@
+{{ $key := printf "people_%s" .Language }}
+{{ $data := index site.Data $key }}
+{{ if $data }}
 <section class="people paper page-content">
     <div class="person-list">
-        {{ range site.Data.people }}
+        {{ range $data }}
             <div class="person">
                 {{ $img := printf "%s_headshot.webp" .id }}
                 {{ $url := printf "images/%s" $img }}
@@ -25,3 +28,4 @@
         {{ end }}
     </div>
 </section>
+{{ end }}
