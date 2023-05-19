@@ -6,10 +6,12 @@ copyright: '© 2010-{year} EHRI Consortium.'
 defaultContentLanguage: en
 params:
   titleShort: EHRI-UK
-  facebook_url: 'https://facebook.com/EHRIproject'
-  twitter_url: 'https://twitter.com/EHRIproject'
-  contact_name: EHRI UK
-  contact_email: feedback@ehri-uk.org
+  facebookUrl: 'https://facebook.com/EHRIproject'
+  twitterUrl: 'https://twitter.com/EHRIproject'
+  contactName: EHRI UK
+  contactEmail: feedback@ehri-uk.org
+  contactForm: true
+  contactFormUrl: dummy
 
 # Menu configuration. Labels are in the i18n folders:
 menu:
