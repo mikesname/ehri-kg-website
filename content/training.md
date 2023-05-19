@@ -2,7 +2,7 @@
 title: Training & Fellowships
 ---
 
-This is some **markdown** content.
+This is some **markdown** content with a [link]().
 
 * here
 * is a 
@@ -18,3 +18,20 @@ With some text below it` >}}
 ##### Another Caption
 
 This figure is on its side.` >}}
+
+---
+
+Here's a thing the creates a footnote.[^1]
+
+Here's a simple table:
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+Here's a quote:
+
+> This is some text that's in a quotation block
+
+[^1]: This is the footnote
