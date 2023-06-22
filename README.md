@@ -54,7 +54,7 @@ There are several aspects to providing translations for multilingual sites:
 * the `i18n` directory contains a file for each language, e.g. `en.yaml` and `cy.yaml`. These contain translations for strings used in the theme.
 * the `content` directory contains a file for each page, e.g. `index.md` and `index.cy.md`. These contain the content for each page, and should be translated into each language.
 * for data-driven pages such as Services and Partners, the `data` directory contains a file for each page, e.g. `services.yaml` and `services.cy.yaml`.
-  This data structures need to be deplicated for each language, but the textual content can be translated.
+  This data structures need to be duplicated for each language, but the textual content can be translated.
 
 ## Adding new pages
 

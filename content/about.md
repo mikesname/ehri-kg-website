@@ -1,6 +1,5 @@
 ---
 title: About EHRI-UK
-layout: about
 type: about
 ---
 
