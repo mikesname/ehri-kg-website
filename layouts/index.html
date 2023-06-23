@@ -1,50 +1,49 @@
 {{ define "main" }}
 
-<body>
-    <section class="home hero">
-        <div class="welcome">
-            <h1>{{ .Page.Title }}</h1>
+<section class="home hero">
+    <div class="welcome">
+        <h1>{{ .Page.Title }}</h1>
 
-            <div class="image1"></div>
-            <div class="image2"></div>
-            <div class="image3"></div>
-            <p>
-                {{ .Content }}
-            </p>
-
-            <a class="button-primary" href="about">{{ i18n "learn_more" }}</a>
-        </div>
-    </section>
-
-    <section class="home video paper">
-
-        <h1><a target="_blank" href="https://www.youtube.com/embed/HR_R0SSMWz0">{{ i18n "more_about_mission" }}</a></h1>
-
-        <img class="video-placeholder" alt="video" src="{{ "images/video-placeholder.png" | relURL }}"/>
-
-<!--        <iframe-->
-<!--            class="video-embed"-->
-<!--            src="https://www.youtube.com/embed/HR_R0SSMWz0" title="YouTube video player"-->
-<!--            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
-<!--            allowfullscreen="">-->
-<!--        </iframe>-->
-
-    </section>
-
-    <section class="home services">
-        <h2>{{ i18n "ehri_services" }}</h2>
+        <div class="image1"></div>
+        <div class="image2"></div>
+        <div class="image3"></div>
         <p>
-            {{ i18n "below_are_some" }}
+            {{ .Content }}
         </p>
 
-        {{ partial "services" . }}
-    </section>
+        <a class="button-primary" href="about">{{ i18n "learn_more" }}</a>
+    </div>
+</section>
 
-    <section class="home latest">
-        <h2>{{ i18n "latest" }}</h2>
+<section class="home video paper">
 
-        {{ partial "latest" . }}
-    </section>
-</body>
+    <h1><a target="_blank" href="https://www.youtube.com/embed/HR_R0SSMWz0">{{ i18n "more_about_mission" }}</a></h1>
+
+    <!-- Video placeholder for when we don't want YouTube cookies -->
+    <!-- <img class="video-placeholder" alt="video" src="{{ "images/video-placeholder.png" | relURL }}"/>-->
+
+    <iframe
+        class="video-embed"
+        src="https://www.youtube.com/embed/HR_R0SSMWz0" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="">
+    </iframe>
+
+</section>
+
+<section class="home services">
+    <h2>{{ i18n "ehri_services" }}</h2>
+    <p>
+        {{ i18n "below_are_some" }}
+    </p>
+
+    {{ partial "services" . }}
+</section>
+
+<section class="home latest">
+    <h2>{{ i18n "latest" }}</h2>
+
+    {{ partial "latest" . }}
+</section>
 
 {{ end }}
