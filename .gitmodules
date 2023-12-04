@@ -1,3 +1,3 @@
 [submodule "themes/ehri-nn"]
 	path = themes/ehri-nn
-	url = ../EHRI/ehri-nn-hugo-theme.git
+	url = ../ehri-nn-hugo-theme.git
