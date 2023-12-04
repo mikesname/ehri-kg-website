@@ -1,7 +1,9 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Build Hugo site
 
-on: [push]
+on:
+  push:
+  workflow_call:
 
 # Default to bash
 defaults:
