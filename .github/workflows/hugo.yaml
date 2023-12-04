@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   # Build job
-  call-build:
+  build:
     uses: ./.github/workflows/build.yaml
     secrets: inherit
 
