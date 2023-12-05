@@ -9,11 +9,13 @@ This is some **markdown** content with a [link]().
 * list of
 * items
 
+Here is a paragraph with some text in it, and a link to the 
+[About]({{< relref "/about" >}}) page.
+
 {{< figure src="../images/doklady-1.png" class="float-right" caption=`
 ##### Here is a caption for an image
 
 With some text below it`>}}
-
 
 {{< figure class="fig-side" src="../images/names-2.png" caption=`
 ##### Another Caption

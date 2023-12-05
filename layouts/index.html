@@ -1,17 +1,17 @@
 {{ define "main" }}
 
 <section class="home hero">
-    <div class="welcome">
+    <div id="welcome">
         <h1>{{ .Page.Title }}</h1>
 
-        <div class="image1"></div>
-        <div class="image2"></div>
-        <div class="image3"></div>
-        <p>
+        <div id="welcome-image1"></div>
+        <div id="welcome-image2"></div>
+        <div id="welcome-image3"></div>
+        <div id="welcome-text">
             {{ .Content }}
-        </p>
+        </div>
 
-        <a class="button-primary" href="about">{{ i18n "learn_more" }}</a>
+        <a class="button-primary" href="{{ relLangURL "about" }}">{{ i18n "learn_more" }}</a>
     </div>
 </section>
 
