@@ -83,7 +83,6 @@ languages:
     weight: 1
     languageName: English
   cy:
-    disabled: true
     title: Deyrnas Unedig
     weight: 2
     languageName: Cymraeg
