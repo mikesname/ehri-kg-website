@@ -81,9 +81,12 @@ languages:
   en:
     title: United Kingdom
     weight: 1
+    languageName: English
   cy:
+    disabled: true
     title: Deyrnas Unedig
     weight: 2
+    languageName: Cymraeg
     menu:
       main:
         - identifier: about
