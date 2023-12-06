@@ -4,6 +4,8 @@ title: United Kingdom
 theme: ehri-nn
 copyright: '© 2010-{year} EHRI Consortium.'
 defaultContentLanguage: en
+dateFormat: '2 January 2006'
+summaryLength: 40
 params:
   titleShort: EHRI-UK
   facebookUrl: 'https://facebook.com/EHRIproject'
@@ -31,6 +33,13 @@ params:
 markup:
   highlight:
     style: xcode
+
+# Configure taxonomy terms
+taxonomies:
+  - name: category
+    weight: 1
+  - name: tag
+    weight: 2
 
 # Menu configuration. Labels are in the i18n folders:
 menu:

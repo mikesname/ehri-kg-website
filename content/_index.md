@@ -1,6 +1,8 @@
 ---
 title: Creating a UK National Holocaust Research Infrastructure
 description: Welcome to the UK Holocaust Research Infrastructure
+linkTitle: Home
+
 ---
 
 The UK holds a unique collection of records relating to the Holocaust and refugees who
