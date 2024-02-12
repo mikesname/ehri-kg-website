@@ -71,6 +71,14 @@ _Text that wraps to the left of the right-floated image._
 
 {{< clear >}}
 
+##### No caption
+
+To use a floating figure without a caption, simply omit the caption parameter:
+
+{{< figure src="../images/names-2.png" class="fig-float fig-left" >}}
+
+{{< clear >}}
+
 ---
 
 Here's a thing the creates a footnote.[^1]
