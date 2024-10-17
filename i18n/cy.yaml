@@ -80,3 +80,27 @@ contact_thanks:
 
 contact_back:
   other: Ewch yn ôl i'r ffurflen
+
+social_media:
+  other: Cyfryngau Cymdeithasol
+
+social_follow_us:
+  other: Dilynwch ni ar gyfryngau cymdeithasol
+
+social_facebook:
+  other: Facebook
+
+social_facebook_follow:
+  other: Dilynwch ni ar Facebook
+
+social_x:
+  other: X (gynt Twitter)
+
+social_x_follow:
+  other: Dilynwch ni ar X (gynt Twitter)
+
+social_linkedin:
+  other: LinkedIn
+
+social_linkedin_follow:
+  other: Dilynwch ni ar LinkedIn
