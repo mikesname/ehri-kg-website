@@ -17,7 +17,7 @@ as they become available.
 
 ## Running
 
-Install Hugo version 0.111.3 or later, as per the instructions [here](https://gohugo.io/installation/): .
+Install Hugo version 0.129.0 or later, as per the instructions [here](https://gohugo.io/installation/): .
 
 Check out this repository and its submodules:
 

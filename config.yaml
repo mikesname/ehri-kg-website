@@ -30,10 +30,14 @@ params:
       logo: 'eu-logo.svg'
       url: 'https://ec.europa.eu/info/departments/research-and-innovation_en'
 
-# Configure syntax highlighting for the examples on the `training` page
 markup:
+  # Configure syntax highlighting for the examples on the `training` page
   highlight:
     style: xcode
+  # Since we control the content, it's okay (and useful) to render raw HTML in the markdown
+  goldmark:
+    renderer:
+      unsafe: true
 
 # Configure taxonomy terms
 taxonomies:
