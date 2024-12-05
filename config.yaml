@@ -103,7 +103,7 @@ languages:
     menu:
       main:
         - identifier: about
-          pageRef: cy/about/
+          pageRef: cy/about
           weight: 20
         - identifier: partners
           pageRef: cy/partners
@@ -119,7 +119,7 @@ languages:
           weight: 60
       footer:
         - identifier: about
-          pageRef: cy/about/
+          pageRef: cy/about
           weight: 20
         - identifier: partners
           pageRef: cy/partners
