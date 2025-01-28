@@ -104,3 +104,9 @@ social_linkedin:
 
 social_linkedin_follow:
   other: Dilynwch ni ar LinkedIn
+
+social_bluesky:
+  other: Bluesky
+
+social_bluesky_follow:
+  other: Dilynwch ni ar Bluesky

@@ -11,6 +11,7 @@ params:
   facebookUrl: 'https://facebook.com/EHRIproject'
   twitterUrl: 'https://twitter.com/EHRIproject'
   linkedinUrl: 'https://www.linkedin.com/company/ehri-european-holocaust-research-infrastructure'
+  blueskyUrl: 'https://bsky.app/profile/ehri-project.eu'
 
   # `contactName` and `contactEmail` are used to populate the contact page.
   contactName: EHRI UK
