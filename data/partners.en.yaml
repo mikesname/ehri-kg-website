@@ -1,17 +1,19 @@
 ---
 
-- id: whl
-  title: The Wiener Holocaust Library
-  url: https://wienerholocaustlibrary.org/
-  image: wiener-logo.svg
+- id: niod
+  title: NIOD Institute for War, Holocaust and Genocide Studies
+  url: https://www.niod.nl/en
+  image: niod.svg
   content: |
-    The [Wiener Holocaust Library](https://wienerholocaustlibrary.org/) is one of the world's leading and most extensive archives on the Holocaust and Nazi era.
-    Formed in 1933, the Library's unique collection of over one million items includes published and unpublished works, press cuttings, photographs and eyewitness testimony.
-    The Library provides a resource to oppose anti-Semitism and other forms of prejudice and intolerance.
+    NIOD Institute for War, Holocaust and Genocide Studies is a national and international centre of expertise for interdisciplinary research into the history of world wars, mass violence, and genocides, including their long-term social consequences. In addition, NIOD collects, preserves, and provides access to archives and collections, especially about the Second World War, and provides information to a broad public, the media, and governmental institutions. 
 
-    The library exists to serve scholars, professional researchers, the media and the public as a library of record and is a living memorial to the evils of the past,
-    ensuring that its wealth of materials is put at the service of the future. The Wiener Holocaust Library aims to engage people of all ages and backgrounds in
-    understanding the Holocaust and its historical context through an active educational programme and by communicating the accessibility, power and contemporary
-    relevance of its collections as a national resource for those wishing to prevent possible future genocides.
-
-    The Wiener Holocaust Library is involved in governance and legal work, finance, sustainability and research and innovation strategy.
+- id: kd
+  title: "Kazerne Dossin: Memorial, museum and research centre on Holocaust and Human rights"
+  url: https://kazernedossin.eu/en/
+  image: kd_logo.svg
+  content: |
+    Kazerne Dossin draws on the historical account of the Jewish persecution and the Holocaust from a Belgian perspective as a means to reflect on contemporary phenomena of racism and the exclusion of communities, and on discrimination for reasons of origin, faith, belief, colour, sex or sexual orientation.
+    
+    In addition, Kazerne Dossin seeks to analyse the issue of group violence within society as a possible stepping stone to genocide.
+    
+    In this way, the museum makes a fundamental contribution to the educational and social project, in which citizenship, democratic resistance and the defence of individual basic freedoms are central.

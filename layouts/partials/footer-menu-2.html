@@ -1,0 +1,13 @@
+<ul class="menu-2 footer-menu">
+    {{ $page := .}}
+    <li class="footer-menu-item">
+        <a href="{{ relLangURL "outputs" }}">{{ i18n "outputs" }}</a>
+        <ul class="footer-submenu">
+            {{- range site.Menus.outputs }}
+            <li class="footer-menu-item footer-submenu-item">
+                <a target="_blank" href="{{ .PageRef | relURL }}">{{ or (T .Identifier) .Name | safeHTML }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </li>
+</ul>

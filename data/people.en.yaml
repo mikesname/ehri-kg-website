@@ -1,28 +1,27 @@
 ---
 
-- id: pistol
-  name: Dr. Rachel Pistol
-  email: feedback@ehri-uk.org
-  image: pistol.webp
+- id: mike
+  name: Mike Bryant
+  email: m.bryant@niod.knaw.nl
+  image: mike-profile-image.jpg
   about: >
-    Rachel Pistol is a digital historian based at
-    [King's College London](https://www.kcl.ac.uk/people/dr-rachel-pistol)
-    and is an Associate Advisor to The Wiener Holocaust Library, London.
-    She specialises in immigration and refugee history, Second World War
-    internment in the UK, and refugee trajectories. She is a member of the
-    EHRI Project Management Board where she coordinates dissemination,
-    innovation and virtual access activities.
+    Mike Bryant is a software developer at NIOD Institute for War, Holocaust and 
+    Genocide studies in Amsterdam, where he works on the EHRI Portal and other online 
+    platforms. Mike studied History and Politics at Lancaster University, and later 
+    received an MA in Digital Asset Management from King's College London. Based in the 
+    UK, he has been involved with the Digital Humanities since 2010.
   contact: true
 
-- id: schmidt
-  name: Dr. Christine Schmidt
-  email: feedback@ehri-uk.org
-  image: schmidt.webp
+- id: herminio
+  name: Herminio García González
+  email: herminio.garciagonzalez@kazernedossin.eu
+  image: herminio-profile-image.jpg
   about: |
-    Christine Schmidt is a historian of the Holocaust, with a passion for and
-    commitment to public history, archives, and cultural heritage. She is Deputy
-    Director and Head of Research at
-    [The Wiener Holocaust Library](https://wienerholocaustlibrary.org),
-    London, where she oversees their academic programming and research initiatives,
-    curates exhibitions, and develops research partnerships.
+    Herminio García-González is a data integration specialist at Kazerne Dossin. 
+    He holds a BSc in Software Engineering and a MSc in Web Engineering from the 
+    University of Oviedo. In 2021 he received his PhD from the University of Oviedo. 
+    He has actively participated in the EHRI project since 2021 where he has led the 
+    data integration lab while at the same time he explores new innovative solutions 
+    that can solve the challenges that cultural heritage institutions face. His research 
+    interests are web semantics, data integration, data validation and digital humanities.
   contact: true

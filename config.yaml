@@ -1,24 +1,24 @@
 baseURL: 'http://example.org/'
 languageCode: en-gb
-title: United Kingdom
+title: EHRI-KG
 theme: ehri-nn
 copyright: '© 2010-{year} EHRI Consortium.'
 defaultContentLanguage: en
 dateFormat: '2 January 2006'
 summaryLength: 40
 params:
-  titleShort: EHRI-UK
+  titleShort: EHRI-KG
   facebookUrl: 'https://facebook.com/EHRIproject'
   twitterUrl: 'https://twitter.com/EHRIproject'
   linkedinUrl: 'https://www.linkedin.com/company/ehri-european-holocaust-research-infrastructure'
   blueskyUrl: 'https://bsky.app/profile/ehri-project.eu'
 
   # `contactName` and `contactEmail` are used to populate the contact page.
-  contactName: EHRI UK
-  contactEmail: feedback@ehri-uk.org
+  contactName: EHRI-KG
+  contactEmail: 
 
   # `contactForm` is a boolean that determines whether the contact form should be shown.
-  contactForm: true
+  contactForm: false
 
   # `contactFormUrl` is the POST action of the form that will be used to send the contact email.
   contactFormUrl: dummy
@@ -27,6 +27,9 @@ params:
   # If the URL is not provided, the logo will not be linked. The logo should be in the
   # `static/images` folder.
   funders:
+    - name: EHRI-KG is funded by the OSCARS project
+      logo: 'oscars_logo_beige.svg'
+      url: 'https://oscars-project.eu'
     - name: EHRI is funded by the European Commission
       logo: 'eu-logo.svg'
       url: 'https://ec.europa.eu/info/departments/research-and-innovation_en'
@@ -56,11 +59,11 @@ menu:
     - identifier: partners
       pageRef: partners
       weight: 30
-    - identifier: fellowships_training
-      pageRef: training
+    - identifier: outputs
+      pageRef: outputs
       weight: 40
-    - identifier: services
-      pageRef: services
+    - identifier: deliverables
+      pageRef: deliverables
       weight: 50
     - identifier: contact
       pageRef: contact
@@ -72,69 +75,25 @@ menu:
     - identifier: partners
       pageRef: partners
       weight: 30
-    - identifier: fellowships_training
-      pageRef: training
-      weight: 40
-  services:
-    - identifier: portal
-      pageRef: 'https://portal.ehri-project.eu/'
+  outputs:
+    - identifier: lodview
+      pageRef: 'https://lod.ehri-project-test.eu/'
       weight: 10
-    - identifier: document_blog
-      pageRef: 'https://blog.ehri-project.eu/'
-      weight: 20
-    - identifier: digital_tools_guide
-      pageRef: 'https://github.com/EHRI/ehri-data-analysis-tools'
-      weight: 30
-    - identifier: podcast
-      pageRef: 'https://www.ehri-project.eu/ehri-podcast-for-the-living-and-the-dead'
-      weight: 40
+    # - identifier: document_blog
+    #   pageRef: 'https://blog.ehri-project.eu/'
+    #   weight: 20
+    # - identifier: digital_tools_guide
+    #   pageRef: 'https://github.com/EHRI/ehri-data-analysis-tools'
+    #   weight: 30
+    # - identifier: podcast
+    #   pageRef: 'https://www.ehri-project.eu/ehri-podcast-for-the-living-and-the-dead'
+    #   weight: 40
 
 
 # Language overrides for menu config. TODO: figure out
 # how not to duplicate things in e.g. the services menu
 languages:
   en:
-    title: United Kingdom
+    title: EHRI-KG
     weight: 1
     languageName: English
-  cy:
-    title: Deyrnas Unedig
-    weight: 2
-    languageName: Cymraeg
-    menu:
-      main:
-        - identifier: about
-          pageRef: cy/about
-          weight: 20
-        - identifier: partners
-          pageRef: cy/partners
-          weight: 30
-        - identifier: fellowships_training
-          pageRef: cy/training
-          weight: 40
-        - identifier: services
-          pageRef: cy/services
-          weight: 50
-        - identifier: contact
-          pageRef: cy/contact
-          weight: 60
-      footer:
-        - identifier: about
-          pageRef: cy/about
-          weight: 20
-        - identifier: partners
-          pageRef: cy/partners
-          weight: 30
-        - identifier: fellowships_training
-          pageRef: cy/training
-          weight: 40
-      services:
-        - identifier: document_blog
-          pageRef: 'https://blog.ehri-project.eu/'
-          weight: 20
-        - identifier: digital_tools_guide
-          pageRef: 'https://github.com/EHRI/ehri-data-analysis-tools'
-          weight: 30
-        - identifier: podcast
-          pageRef: 'https://www.ehri-project.eu/ehri-podcast-for-the-living-and-the-dead'
-          weight: 40

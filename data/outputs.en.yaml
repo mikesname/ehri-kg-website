@@ -1,0 +1,9 @@
+---
+
+- id: lodview
+  title: EHRI-KG Lodview interface
+  url: https://lod.ehri-project-test.eu/
+  icon: meeting_room
+  image: ehri-kg-banner.jpeg
+  content: |
+    The EHRI-KG Lodview interface offers an easy-to-use website to navigate over the KG entities. You will also find some example SPARQL queries that will help in answering more complex research questions.
