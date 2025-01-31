@@ -1,6 +1,9 @@
 outputs:
   other: Outputs
 
+deliverables:
+  other: Deliverables
+
 ehri-kg_outputs:
   other: EHRI-KG outputs
 
