@@ -1,0 +1,11 @@
+.hero-welcome-image1, .hero-welcome-image3 {
+    background-position: top;
+}
+
+#welcome-text {
+    margin-right: 10%;
+}
+
+.footer-headings a {
+    min-width: 100%;
+}

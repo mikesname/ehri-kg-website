@@ -1,0 +1,11 @@
+{{ $key := printf "outputs.%s" .Language }}
+{{ $data := index site.Data $key }}
+{{ if $data }}
+<div class="resource-cards">
+    {{ range $data }}
+        {{ partial "resource-card" . }}
+    {{ end }}
+</div>
+{{ else }}
+    {{ errorf "Cannot find outputs data for language '%s'" .Language }}
+{{ end }}
