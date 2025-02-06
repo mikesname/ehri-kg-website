@@ -10,6 +10,8 @@ infrastructure securing Holocaust research, commemoration and education on a tra
 EHRI-KG is a project funded by the [OSCARS project](https://oscars-project.eu) which seeks to convert the EHRI's Portal data into a Knowledge Graph in order to promote data interoperability in the field.
 {{< /intro >}}
 
+{{< figure class="fig-float fig-right" src="../images/oscars_logo_rgb.svg" alt="The OSCARS Project logo" caption="The OSCARS Project logo" >}}
+
 ## Scientific objectives
 The project aims to address the following overarching objectives:
 * Align EHRI Portal data with the recently-released Records in Contexts Conceptual Model (RiC-CM) 1.0.2

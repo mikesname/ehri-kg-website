@@ -5,7 +5,7 @@ baseURL: 'http://www.example.com'
 languageCode: en-gb
 title: EHRI-KG
 theme: ehri-nn
-copyright: '© 2010-{year} EHRI Consortium.'
+copyright: '© {year} EHRI-ERIC.'
 defaultContentLanguage: en
 dateFormat: '2 January 2006'
 summaryLength: 40
@@ -33,9 +33,9 @@ params:
     - name: EHRI-KG is funded by the OSCARS project
       logo: 'oscars_logo_beige.svg'
       url: 'https://oscars-project.eu'
-    - name: EHRI is funded by the European Commission
-      logo: 'eu-logo.svg'
-      url: 'https://ec.europa.eu/info/departments/research-and-innovation_en'
+#     - name: EHRI is funded by the European Union
+#       logo: 'eu-funded-beige-text.svg'
+#       url: 'https://ec.europa.eu/info/departments/research-and-innovation_en'
 
 markup:
   # Configure syntax highlighting for the examples on the `training` page
