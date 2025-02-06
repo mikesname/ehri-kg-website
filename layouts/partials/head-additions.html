@@ -1,2 +1,4 @@
 <!-- Add any <style> or <script> tags you need here -->
-<link rel="stylesheet" href="{{.Site.BaseURL}}css/index-custom.css">
+{{ with resources.Get "scss/theme.scss" | css.Sass | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}
