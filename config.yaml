@@ -1,4 +1,7 @@
-baseURL: 'https://ehri.github.io/ehri-kg-website/'
+---
+
+# BaseURL can be overridden on deployment with the actual value
+baseURL: 'http://www.example.com'
 languageCode: en-gb
 title: EHRI-KG
 theme: ehri-nn
@@ -12,6 +15,9 @@ params:
   twitterUrl: 'https://twitter.com/EHRIproject'
   linkedinUrl: 'https://www.linkedin.com/company/ehri-european-holocaust-research-infrastructure'
   blueskyUrl: 'https://bsky.app/profile/ehri-project.eu'
+
+  # Override the default EHRI logo, using a reference to an image in the `static/` folder.
+  headerLogo: 'images/ehri-logo-beige.svg'
 
   # `contactName` and `contactEmail` are used to populate the contact page.
   contactName: EHRI-KG
