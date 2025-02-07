@@ -8,25 +8,45 @@ $bg-gradient: linear-gradient(0deg, rgba($primary, 0.9), rgba(lighten($primary, 
 
 :root {
   // Defaults for theme vars
-  //--theme-accent-primary: var(--wine-red);
-  --theme-accent-primary: #{lighten($primary, 70%)};
-  //--theme-accent-primary: #{$primary};
-  //--theme-accent-secondary: var(--primary);
-  --theme-accent-secondary: #AE8EC1;
-  //--theme-bg: var(--white);
+
+  // The page background
   --theme-bg: #{$primary};
-  //--theme-fg: var(--black);
+  // Text colour
   --theme-fg: #{lighten($primary, 70%)};
-  --theme-bg-accent: #{darken($primary, 5%)};
-  --theme-header-bg: var(--theme-bg);
-  --theme-header-fg: var(--theme-fg);
-  --theme-footer-bg: #{darken($primary, 5%)};
-  --theme-accent-tertiary: #{darken($text, 20%)};
-  --theme-footer-fg: #{$text};
-  --theme-text-accent: #{lighten($primary, 5%)};
-  --theme-text-disabled: #{darken($white, 20%)};
+  // Accented background for e.g. buttons + gradient variety
+  --theme-bg-accent: #{lighten($primary, 5%)};
   --theme-bg-accent-gradient: #{$bg-gradient};
+  // Accented text e.g. links
+  --theme-fg-accent: #{lighten($primary, 70%)};
+  // Muted text, e.g. disabled links
+  --theme-fg-muted: #{darken($white, 20%)};
+
+  // Header varieties of above
+  --theme-header-bg: var(--theme-bg);
+  --theme-header-bg-accent: var(--theme-bg-accent);
+  --theme-header-bg-accent-gradient: var(--theme-bg-accent-gradient);
+  --theme-header-fg: var(--theme-fg);
+  --theme-header-fg-accent: var(--theme-fg-accent);
+  --theme-header-fg-muted: var(--theme-fg-muted);
+
+  // Footer varieties of above
+  --theme-footer-bg: #{darken($primary, 5%)};
+  --theme-footer-bg-accent: var(--theme-footer-bg);
+  --theme-footer-bg-accent-gradient: var(--theme-footer-bg-accent);
+  --theme-footer-fg: #{$text};
+  --theme-footer-fg-accent: var(--theme-footer-fg);
+  --theme-footer-fg-muted: var(--theme-footer-fg);
+
+  // Top border colour
   --theme-top-border: #{darken($primary, 10%)};
+}
+
+body {
+  border-top: var(--theme-top-border);
+}
+
+blockquote p {
+  border-left: lighten($primary, 10%) 5px solid;
 }
 
 .paper {
@@ -52,7 +72,7 @@ $bg-gradient: linear-gradient(0deg, rgba($primary, 0.9), rgba(lighten($primary, 
 }
 
 .header.main .logo img {
-    filter: grayscale(1) invert(1) opacity(0.9);
+    filter: grayscale(1) invert(1) opacity(0.9) brightness(1.2);
 }
 
 .footer-content .partners .partner-logos {
@@ -70,4 +90,13 @@ $bg-gradient: linear-gradient(0deg, rgba($primary, 0.9), rgba(lighten($primary, 
   //opacity: 0.6;
   padding: 1rem;
   color: black;
+}
+
+#welcome-text figure {
+  margin: 0;
+
+  img {
+    width: 20rem;
+    filter: invert(1);
+  }
 }

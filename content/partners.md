@@ -1,4 +1,4 @@
 ---
-title: Partners
+title: Project Partners
 type: partners
 ---

@@ -5,20 +5,21 @@ type: about
 
 {{< intro >}}
 The [European Holocaust Research Infrastructure (EHRI)](https://www.ehri-project.eu) is an international 
-infrastructure securing Holocaust research, commemoration and education on a trans-national level. 
+infrastructure focusing on trans-national Holocaust research, commemoration, and education. 
 
-EHRI-KG is a project funded by the [OSCARS project](https://oscars-project.eu) which seeks to convert the EHRI's Portal data into a Knowledge Graph in order to promote data interoperability in the field.
+EHRI-KG is a project funded by the [OSCARS project](https://oscars-project.eu) which seeks to convert the EHRI's Portal 
+data into a Knowledge Graph in order to promote data interoperability in the field.
 {{< /intro >}}
 
-{{< figure class="fig-float fig-right" src="../images/oscars_logo_rgb.svg" alt="The OSCARS Project logo" caption="The OSCARS Project logo" >}}
+{{< figure class="fig-float fig-right" src="../images/oscars_logo_rgb.svg" alt="The OSCARS Project logo" >}}
 
 ## Scientific objectives
 The project aims to address the following overarching objectives:
 * Align EHRI Portal data with the recently-released Records in Contexts Conceptual Model (RiC-CM) 1.0.2
-* Formalise ontology extensions
+* Formalise ontology extensions required to adequately represent EHRI's domain
 * Expand the scope of the KG
-* Develop the technical architecture for ensuring timely updates to the Knowledge Graph
-* Record linkage
+* Develop the technical architecture for ensuring timely updates to the KG
+* Link the KG to other relevant LOD datasets
 
 ## Project structure
 In order to reach those objectives the project is divided in these work packages:

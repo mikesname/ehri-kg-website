@@ -4,5 +4,5 @@ type: deliverables
 ---
 
 {{< intro >}}
-Here you can find the public deliverables of this project:
+Project deliverables will be made available here as they are completed. Stay tuned.
 {{< /intro >}}
