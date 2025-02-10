@@ -18,7 +18,7 @@ params:
 
   # `contactName` and `contactEmail` are used to populate the contact page.
   contactName: EHRI-KG
-  contactEmail: 
+  contactEmail: ehri-kg@ehri-project.eu
 
   # `contactForm` is a boolean that determines whether the contact form should be shown.
   contactForm: false
