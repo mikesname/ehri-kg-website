@@ -67,6 +67,10 @@ blockquote p {
   min-width: 100%;
 }
 
+.footer-content .partners .partner-logos {
+  flex-wrap: wrap;
+}
+
 .partner-card .logo {
   filter: invert(1) opacity(0.6);
 }
